@@ -70,7 +70,7 @@ transform: translateX(300px); */
 }
 @keyframes shipmoving{
     0%{
-        transform: translateX(-850px);
+        transform: translateX(-800px);
     }
     100%{
         transform: translateX(0px);
