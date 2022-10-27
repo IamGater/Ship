@@ -24,6 +24,7 @@
     position: absolute;
     right: 0;
     animation:  water 30s linear infinite;
+    z-index: 2;
 }
 @keyframes water{
     0%{
@@ -40,6 +41,7 @@ position: absolute;
 bottom: 80px;
 right: 40%;
 animation: shipmoving 15s linear;
+z-index: 3;
 /* transition: transform 3s ease-in;
 transform: translateX(300px); */
 }
@@ -101,4 +103,18 @@ transform: translateX(300px); */
     transform: translateX(50%);
     z-index: 5;
     width: 50%;
+}
+.sun{
+    padding-left: 40%;
+    padding-top: 4%;
+    width: 20%;
+    animation: sun 30s linear;
+}
+@keyframes sun{
+    0%{
+        transform: translateY(0); 
+     }
+     100%{
+         transform: translateY(800px);
+     }
 }
